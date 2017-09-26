@@ -30,17 +30,8 @@ atan(1)
 # Import OS function for working with your system.
 import os
 
-# Execute a shell command.
-os.system()  
-
-# Get the users enviroments.
-os.environ()  
-
 # Return the current working directory.
-os.getcwd()  
-
-# Return information identifying the current operating system.
-os.uname()    
+os.getcwd()    
 
 # Change the root directory of the current process to path.
 os.chroot(path)   
@@ -55,7 +46,13 @@ os.mkdir(path)
 os.makedirs(path)  
 
 #Remove (delete) the file path.
-os.remove(path)    
+os.remove(path)  
+
+# Import information about your platform.
+import platform
+
+# Show the release.
+platform.release()
 
 # Import an library as an alias.
 import numpy as np
