@@ -1,7 +1,7 @@
 # Huy-Hieu PHAM, Ph.D. Fellow.
 # Cerema Research Center & Toulouse Institute of Computer Science Research (IRIT)
 # Paul Sabatier University - Toulouse III, Toulouse, France.
-# Description: "Import module and packages in Python".
+# Description: "Data types in Python".
 # Created date: Sep. 26, 2017
 
 
