@@ -13,9 +13,7 @@ type("string")    # Return <class 'str'>
 type(True)        # Return <class 'bool'>
 type(None)        # Return <class 'NoneType'>
 
-
-
-
-
-
-
+# Convert an object to a given type.
+int(1.2)          # Return 1
+float(2)          # Return 2.0
+str(1.5)          # Return '1.5'
