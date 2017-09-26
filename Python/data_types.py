@@ -6,4 +6,16 @@
 
 
 # Return the type of an object.
-type(2)
+type(2)           # Return <class 'int'>
+type(2.0)         # Return <class 'float'>
+type('string')    # Return <class 'str'>
+type("string")    # Return <class 'str'>
+type(True)        # Return <class 'bool'>
+type(None)        # Return <class 'NoneType'>
+
+
+
+
+
+
+
