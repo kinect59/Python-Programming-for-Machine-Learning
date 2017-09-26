@@ -16,7 +16,7 @@ if x > 0:
     print("x is positive")
     
 else:
-    print("X is 0 or negative")
+    print("x is 0 or negative")
     
 # If/Elif/Else/
 
