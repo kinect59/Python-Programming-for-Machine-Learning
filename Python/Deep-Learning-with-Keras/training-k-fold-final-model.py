@@ -1,6 +1,6 @@
 
 """
-Program description: regression_model in Python/Keras.
+Program description: K-fold validation and training the final DL model in Python/Keras.
 """
 
 # Load library and packages.
