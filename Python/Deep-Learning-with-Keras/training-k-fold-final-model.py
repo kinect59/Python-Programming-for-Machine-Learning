@@ -81,14 +81,14 @@ for i in range(k):
 print(np.mean(all_score))
 
 
-# Pick the best model and train the final model.
-
-model = load_model('model_fold_k_3.h5')
+# Training the final model. All trained models with K-fold have been discarded. They are no longer needed. 
+# They have served their purpose to help you choose a best learning model with its hyperparameters. 
+# Now, you need to train your choose model on the full training dataset.
+model = build_model()
 
 model.fit(train_data, train_labels, epochs = 100, batch_size = 16, verbose = 2)
 
 test_mse_score, test_mae_score = model.evaluate(test_data, test_labels)
-
 
 print(test_mae_score)
 
