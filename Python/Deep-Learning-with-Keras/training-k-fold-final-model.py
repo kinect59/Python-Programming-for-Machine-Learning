@@ -75,6 +75,9 @@ for i in range(k):
     val_mse, val_mae = regression_model.evaluate(val_data, val_labels, verbose = 0)
     all_score.append(val_mae)
     del regression_model
+    
+# Compute the average of the scores for k-fold. 
+
 print(np.mean(all_score))
 
 
